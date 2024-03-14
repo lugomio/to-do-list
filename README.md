@@ -1,6 +1,6 @@
 ![Banner](https://github.com/lugomio/to-do-list/raw/master/assets/img/banner.png)
 
-# To Do List
+# To-Do List
 
 Esse é um projeto simples de lista de tarefas que foi desenvolvido para fins de aprendizado. O projeto foi construído usando HTML, CSS e JavaScript.
 
