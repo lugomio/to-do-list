@@ -92,8 +92,9 @@ function endDrag(e) {
 function dragSwapItems(e) {
     const siblings = [...todoList.querySelectorAll('.item:not(.dragging)')];
 
+    
     dropItem = siblings.find((sibling) => {
-        return e.clientY <= sibling.offsetTop + sibling.offsetHeight;
+        return e.clientY <= sibling.offsetTop + sibling.offsetHeight - window.scrollY;
     }).dataset.index;
 }
 
